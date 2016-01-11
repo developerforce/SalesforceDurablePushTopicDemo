@@ -23,7 +23,7 @@
                  cometd.unregisterExtension(REPLAY_FROM, replayExtension);                 
              }
 
-            // register streaming v2 replayFrom extension
+            // register Durable PushTopic Streaming replayFrom extension
              var replayExtension = new cometdReplayExtension();
              replayExtension.setChannel(channel);
              replayExtension.setReplay('{!replayFrom}');
