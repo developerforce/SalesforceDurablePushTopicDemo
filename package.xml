@@ -9,11 +9,11 @@
         <name>ApexComponent</name>
     </types>
     <types>
-        <members>StreamingPushTopicV2Demo</members>
+        <members>StreamingDurablePushTopicDemo</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>StreamingV2PushTopicDemo</members>
+        <members>StreamingDurablePushTopicDemo</members>
         <name>PermissionSet</name>
     </types>
     <types>
