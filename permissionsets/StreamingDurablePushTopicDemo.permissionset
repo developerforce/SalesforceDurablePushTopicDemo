@@ -4,7 +4,7 @@
         <apexClass>StreamingPushTopicReplayController</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <label>StreamingV2PushTopicDemo</label>
+    <label>StreamingDurablePushTopicDemo</label>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>false</allowDelete>
@@ -15,7 +15,7 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <pageAccesses>
-        <apexPage>StreamingPushTopicV2Demo</apexPage>
+        <apexPage>StreamingDurablePushTopicDemo</apexPage>
         <enabled>true</enabled>
     </pageAccesses>
 </PermissionSet>
