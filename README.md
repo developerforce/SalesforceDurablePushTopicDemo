@@ -12,7 +12,7 @@ Durable PushTopic Streaming is currently a Beta feature in Salesforce, and in or
 1. Download this repo as zip file
     * This contains all of the needed code to run the client inside of Salesforce
 2. Deploy the code to an enabled Spring '16 org using the MdAPI through Workbench, Force.com IDE, or Ant Migration Tool
-3. Assign the included StreamingV2PushTopicDemo permission set to your user
+3. Assign the included StreamingDurablePushTopicDemo permission set to your user
 4. Create the `/topic/TestAccountStreaming` PushTopic by navigating to `/apex/StreamingDurablePushTopicDemo` - this Visualforce page will create the topic then auto-subscribe to `/topic/TestAccountStreaming` using Durable PushTopic Streaming.
 5. Create notifications for the new topic
     * Use the on-screen utility to create, update and then delete an Account record
