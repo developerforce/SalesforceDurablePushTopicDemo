@@ -5,9 +5,6 @@ This is handled through the use of an Replay ID.  Every event sent through the P
 
 If you do not provide an ID, or the ID you provide is -1, your client will be subscribed to the tip of the queue (you will receive all new messages).  If you provide an ID of -2, we resend ALL events that happened in the last 24 hours.
 
-## Prerequisites
-Durable PushTopic Streaming is currently a Beta feature in Salesforce, and in order to successfully subscribe to the durable topic, you will need to have your org enabled for the new feature.  To do so, please contact jhurst@salesforce.com. 
-
 ## Demo Instructions
 1. Download this repo as zip file
     * This contains all of the needed code to run the client inside of Salesforce
